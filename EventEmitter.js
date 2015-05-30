@@ -19,7 +19,7 @@
     // Shortcuts to improve speed and size
     var proto = EventEmitter.prototype;
     var exports = this;
-    var originalGlobalValue = exports.EventEmitter;
+    var originalGlobalValue = this.EventEmitter;
 
     /**
      * Finds the index of the listener for the event in its storage array.
